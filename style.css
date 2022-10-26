@@ -17,46 +17,63 @@
       width: 300px;
     }
   }
-
 body {
     font-family: Karla, Helvetica, sans-serif;
     font-size: 16px;
-    color: black;
-    line-height: 1.5rem;
+    background-color: rgb(48, 38, 38);/*-image: url("images/gerialta.jpg");*/
+    background-repeat: repeat;
+    background-size: 300px 100px;
  }
   .text-center {
     text-align: center;
   }
 .card-white {
-    background-color: white;
+    background-color: rgb(177, 160, 160);
   }
 .card {
     padding: 2em 4em;
     margin-top: 1rem;
-    box-shadow: black;
     border-radius: 4px;
   }
-div {
-    display: block;
-  }
-  .avatar{
+footer{
+  background-color: rgb(24, 22, 22);
+  text-align: center;
+  font-family: Karla, Helvetica, sans-serif;
+  font-size: 16px;
+  color: rgb(247, 238, 238);
+  line-height: 1.5rem;
+}
+#avatar{
     height: 100px;
     width: 100px;
+    border-radius: 50%;
   }
-.profile{
-    background-image: url("images/afomi.jpg");
-    background-repeat: no-repeat;
-    background-size: auto;
+#setwidth{
+  width: 35%;
 }
-.code{
-    background-image: url("images/afomi.jpg");
+.setiframe{
+  height:"220";
+  width:"300"
 }
-.visit{
-    background-image: url("images/afomi.jpg");
+.setsizeif{
+  width: 350;
+  height: 250;
 }
-.dance{
-    background-image: url("images/afomi.jpg");
+ 
+.masterdiv{
+  display: flex;
+  display: flex;
+  align-content: center;
+  justify-content: space-around;
 }
-.follow{
-    background-image: url("images/afomi.jpg");
+.button{
+  text-decoration: none;
+  border: 1px black dotted;
+  border-radius: 30px;
+  background-color: gray;
+}
+.button:hover{  
+  background-color: black;
+  border: none;
+  transition:1s;
 }
