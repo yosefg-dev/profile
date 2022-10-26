@@ -1,0 +1,123 @@
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Poppins:300,400,500,700");
+@media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
+  .settogether{
+    display: flex;
+  }
+  .profile{
+    background-color: hsla(221, 67%, 76%, 0.81);
+    height: 150px;
+    width: 75%;
+    border-radius: 71px;
+    align-items: center;
+  }
+  .settogether{
+    background-color: rgb(236, 236, 246);
+    height: 200px;
+    width: 100vw;
+    border-radius: 50px;
+  }
+  .reference{  
+    width: 35%;
+    padding-left: 19px;
+  }
+  .certificate{
+    background-color: rgb(212, 206, 206);
+    height: 180px;
+    width: 40%;
+  }
+  .familylink{  
+    background-color: white;
+    height: 180px;
+    width: 70%;
+  }
+  .footer{
+      position: fixed;
+      left: 0;
+      bottom: 0;
+      width: 100%;
+      background-color: #333;
+      color: #f2f2f2;
+      text-align: center;
+      transition: 1ms;
+  }
+  .footer:hover{
+      background: #ddd;
+      color: black; 
+      transition: 1ms;
+  }
+  #avatar{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+  }
+  .profile{
+    display:flex;
+  }
+  .textprof{
+    padding-left: 39px;
+  }
+  .reference:hover{
+    color: rgb(91, 113, 223);
+  }
+  #git:hover{
+    color: rgb(91, 113, 223);
+  }
+
+  .navbar {
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .navbar a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 15px;
+    transition: 1ms;
+  }
+  
+  .navbar a:hover {
+    background: #ddd;
+    color: black;
+    transition: 1ms;
+  }
+  
+  .container {
+    padding: 16px;
+    margin-top: 33px;
+    height: auto; 
+}
+#linktxt{
+  text-decoration: none;
+  color: rgb(118, 118, 231);
+}
+#linktxt:hover{
+  color: black; 
+  background-color:rgb(177, 176, 173);
+}
+#imgeff:hover{
+  image-orientation: 30deg;
+}
