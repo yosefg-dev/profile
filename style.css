@@ -47,6 +47,7 @@ footer{
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    object-fit: cover;
   }
 #setwidth{
   width: 35%;
@@ -56,24 +57,31 @@ footer{
   width:"300"
 }
 .setsizeif{
-  width: 350;
+  width: 250;
   height: 250;
 }
  
 .masterdiv{
   display: flex;
-  display: flex;
+  /*align-items: stretch;
   align-content: center;
-  justify-content: space-around;
+  justify-content: space-around; */
 }
 .button{
   text-decoration: none;
   border: 1px black dotted;
   border-radius: 30px;
   background-color: gray;
+  padding-inline: 21px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 21px;
+  color: black;
+  transition: 0.5s;
 }
 .button:hover{  
   background-color: black;
   border: none;
-  transition:1s;
+  transition:0.5s;
+  color:white;
 }
