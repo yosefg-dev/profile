@@ -112,7 +112,7 @@
 }
 #linktxt{
   text-decoration: none;
-  color: rgb(118, 118, 231);
+  color: rgba(4, 4, 48, 0.993);
 }
 #linktxt:hover{
   color: black; 
